@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SkyPerfectV番組フィルター",
+  "version": "1.0",
+  "description": "SkyPerfectVのリアルタイム番組一覧から「ファーム」を含む番組を非表示にします",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://streaming.skyperfectv.co.jp/realtime*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+} 
