@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "SkyPerfectV番組フィルター",
+  "name": "一軍公式戦以外見ない",
   "version": "1.0",
-  "description": "SkyPerfectVのリアルタイム番組一覧から「ファーム」を含む番組を非表示にします",
+  "description": "SkyPerfectVのリアルタイム番組一覧からNPBの一軍公式戦以外の番組を非表示にします",
   "permissions": ["activeTab"],
   "content_scripts": [
     {
